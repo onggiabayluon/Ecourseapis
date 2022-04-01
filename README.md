@@ -108,7 +108,7 @@ To install Python on your machine go to https://www.python.org/downloads/. The w
    ```
 
 2. Setting your Mysql root name and password in settings.py file:
-  [./ecourses/ecourses/settings.py]()
+  [./ecourses/ecourses/settings.py](https://github.com/onggiabayluon/Ecourseapis/blob/acb923751b8f15c989b504b632114adfe61a8fec/ecourses/ecourses/settings.py#L78)
   
 3. Create Mysql Schema name: saleappdb
 
