@@ -4,20 +4,20 @@ green=`tput setaf 2`
 reset=`tput sgr0`
 
 
-# echo "${green}>>> Creating virtualenv${reset}"
-# py -3 -m venv venv
-# echo "${green}>>> .venv is created.${reset}"
+echo "${green}>>> Creating virtualenv${reset}"
+py -3 -m venv venv
+echo "${green}>>> .venv is created.${reset}"
 
-# # active
-# sleep 2
-# echo "${green}>>> activate the .venv.${reset}"
-# source ".\venv\Scripts\activate"
-# echo "${green}>>> activate the .venv sucessfully.${reset}"
-# sleep 2
+# active
+sleep 2
+echo "${green}>>> activate the .venv.${reset}"
+source ".\venv\Scripts\activate"
+echo "${green}>>> activate the .venv sucessfully.${reset}"
+sleep 2
 
-# # install packages
-# echo "${green}>>> Installing the Packages${reset}"
-# pip install -r requirements.txt
+# install packages
+echo "${green}>>> Installing the Packages${reset}"
+pip install -r requirements.txt
 
 
 # up one level

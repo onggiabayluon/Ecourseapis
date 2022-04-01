@@ -100,38 +100,24 @@
 
 To install Python on your machine go to https://www.python.org/downloads/. The website should offer you a download button for the latest Python version. Download the executable installer and run it. Check the boxes next to “Install launcher for all users (recommended)” then click “Install Now”.
 
-### Installation
+### Installation Using Scripts
 
 1. Clone the repo
    ```sh
    git clone https://github.com/onggiabayluon/Ecourseapis.git
    ```
 
-2. Create a virtual environment
+2. Setting your Mysql root name and password in settings.py file:
+  [./ecourses/ecourses/settings.py]()
+  
+3. Create Mysql Schema name: saleappdb
 
-3. Install packages
+4. Run init.sh Scripts in Git bash
+  
+  - This Script Will auto Setup the project in one go
    ```sh
-   pip install -r requirements.txt
+   ./init.sh
    ```
-   
-4. Create Mysql Schema name: ecoursesdb
-
-5. Migrate database Models
-   ```sh
-   python manage.py makemigrations
-   ```
-   ```sh
-   python manage.py migrate
-   ```
-   
-6. Run the Project
-   ```sh
-   cd ecourses
-   ```
-   ```sh
-   python manage.py runserver
-   ```
-   
    
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -143,6 +129,16 @@ To install Python on your machine go to https://www.python.org/downloads/. The w
    python manage.py createsuperuser
    ```
 2. Go to url: /admin
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+
+_For more examples, please refer to the [Documentation](https://example.com)_
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 <!-- USAGE EXAMPLES -->
